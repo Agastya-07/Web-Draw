@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "WebDraw",
+    "version": "1.0",
+  
+    "description": "Draw on any website!",
+  
+    "icons": {
+      "16": "icons/pen (3).png"
+      ,
+      "32": "icons/pen (6).png",
+      "128": "icons/pen (5).png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["content.js"]
+      }
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "WebDraw@example.com"
+        }
+  }
+}
+  
