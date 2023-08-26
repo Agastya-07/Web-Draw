@@ -32,12 +32,32 @@ body {
     height: 300px;
     border-radius: 40px;
     width:50px;
-    background-color: rgb(33, 33, 237);
+    background-color: rgb(147, 234, 229);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
+}
+#moon{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+#sun{
+    background-color: rgb(250, 246, 246);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+#moon:hover{
+    background-color: rgb(67, 42, 113);
+    transform: scale(1.2);
+}
+#sun:hover{
+    background-color: rgb(252, 227, 3);
+    transform: scale(1.2);
 }
 #red{
     background-color: red;
@@ -51,12 +71,16 @@ body {
     height: 30px;
     width: 30px;
 }
+#black:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(0.8);
+}
 #red:hover{
     background-color: rgb(151, 39, 39);
     transform: scale(0.8);
 }
 #green{
-    background-color: rgb(7, 234, 106);
+    background-color: rgb(0, 255, 13);
     border-radius: 50%;
     height: 30px;
     width: 30px;
@@ -66,4 +90,50 @@ body {
 #green:hover{
     background-color: rgb(41, 124, 41);
     transform: scale(0.8);
+}
+#pink{
+    background-color: rgb(234, 7, 192);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+
+#pink:hover{
+    background-color: rgb(188, 10, 182);
+    transform: scale(0.8);
+}
+#blue{
+    background-color: rgb(0, 0, 253);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+
+#blue:hover{
+    background-color: rgb(46, 15, 159);
+    transform: scale(0.8);
+}
+#yellow{
+    background-color: rgb(228, 253, 0);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+
+#yellow:hover{
+    background-color: rgb(154, 159, 15);
+    transform: scale(0.8);
+}
+#credit{
+    z-index: 1;
+    position: absolute;
+    margin-top: 670px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    color: rgb(10, 10, 112);
+    border-radius: 10%;
+    padding:5px;
 }

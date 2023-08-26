@@ -21,7 +21,7 @@
 
     "browser_specific_settings": {
         "gecko": {
-          "id": "WebDraw@example.com"
+          "id": "Web-Draw@example.com"
         }
   }
 }
